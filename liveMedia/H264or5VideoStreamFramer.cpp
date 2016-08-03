@@ -947,9 +947,9 @@ unsigned H264or5VideoStreamParser::parse() {
     // The stream must start with a 0x00000001:
     if (!fHaveSeenFirstStartCode) {
       // Skip over any input bytes that precede the first 0x00000001:
-      u_int32_t first4Bytes;
-      while ((first4Bytes = test4Bytes()) != 0x00000001) {
-	get1Byte(); setParseState(); // ensures that we progress over bad data
+      u_int32_t first4Bytes = test4Bytes();
+      while ((first4Bytes != 0x00000001)) {
+		get1Byte(); setParseState(); // ensures that we progress over bad data
       }
       skipBytes(4); // skip this initial code
       

@@ -2,3 +2,8 @@
 Debug/
 *.sdf
 *.opendb
+UsageEnvironment/Release/
+liveMedia/Release/
+BasicUsageEnvironment/Release/
+groupsock/Release/
+Release/

@@ -15,16 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="playCommon.hh">
+    <ClInclude Include="H264FramedLiveSource.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="unistd.h">
+    <ClInclude Include="H264LiveVideoServerMediaSubssion.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="testWAVAudioStreamer.cpp">
+    <ClCompile Include="H264FramedLiveSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="H264LiveVideoServerMediaSubssion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h264streamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="x264src\libx264.lib" />
   </ItemGroup>
 </Project>
