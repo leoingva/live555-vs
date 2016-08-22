@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testProgs", "testProgs\test
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liveMedia", "liveMedia\liveMedia.vcxproj", "{D4930A29-1F0B-40E6-BA5A-CA63271C4A98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxyServer", "proxyServer\proxyServer.vcxproj", "{6B669166-36AB-497A-8EDA-86B5F8419659}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{D4930A29-1F0B-40E6-BA5A-CA63271C4A98}.Release|x64.Build.0 = Release|x64
 		{D4930A29-1F0B-40E6-BA5A-CA63271C4A98}.Release|x86.ActiveCfg = Release|Win32
 		{D4930A29-1F0B-40E6-BA5A-CA63271C4A98}.Release|x86.Build.0 = Release|Win32
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Debug|x64.ActiveCfg = Debug|x64
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Debug|x64.Build.0 = Debug|x64
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Debug|x86.Build.0 = Debug|Win32
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Release|x64.ActiveCfg = Release|x64
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Release|x64.Build.0 = Release|x64
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Release|x86.ActiveCfg = Release|Win32
+		{6B669166-36AB-497A-8EDA-86B5F8419659}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
